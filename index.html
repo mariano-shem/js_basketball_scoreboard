@@ -8,10 +8,24 @@
 </head>
 <body>
   <main>
-    <p>Home</p>
-    <p>Away</p>
-    <span>0</span>
-    <span>0</span>
+    <section>
+      <h1>HOME</h1>
+      <p id="homePoint">0</p>
+      <ul class="home-scores">
+        <li id="OneHP" onclick="addOne(this)">+1</li>
+        <li id="TwoHP" onclick="addTwo(this)">+2</li>
+        <li id="threeHP" onclick="addThree(this)">+3</li>
+      </ul>
+    </section>
+    <section>
+      <h1>AWAY</h1>
+      <p id="awayPoint">0</p>
+      <ul class="away-scores">
+        <li id="OneHP" onclick="addOne(this)">+1</li>
+        <li id="TwoHP" onclick="addTwo(this)">+2</li>
+        <li id="threeHP" onclick="addThree(this)">+3</li>
+      </ul>
+    </section>
   </main>
   <script src="index.js"></script>
 </body>
