@@ -4,13 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS Basketball Scoreboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <main>
-    <section>
-      <h1>HOME</h1>
-      <p id="homePoint">0</p>
+    <h1>SCOREBOARD</h1>
+    <section class="score-container">
+      <h2>HOME</h2>
+      <div>
+        <p id="homePoint">0</p>
+      </div>
       <ul class="home-scores">
         <li id="OneHP" onclick="addOne(this)">+1</li>
         <li id="TwoHP" onclick="addTwo(this)">+2</li>
@@ -18,8 +24,10 @@
       </ul>
     </section>
     <section>
-      <h1>AWAY</h1>
-      <p id="awayPoint">0</p>
+      <h2>AWAY</h2>
+      <div>
+        <p id="awayPoint">0</p>
+      </div>
       <ul class="away-scores">
         <li id="OneHP" onclick="addOne(this)">+1</li>
         <li id="TwoHP" onclick="addTwo(this)">+2</li>
